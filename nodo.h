@@ -4,10 +4,10 @@
 using namespace std;
 class Nodo{
 private:
-	
-public:
 	int elem;
 	Nodo *next;
+public:
+	
 	Nodo();
 	Nodo(int);
 	void setInt(int);
